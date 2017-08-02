@@ -14,7 +14,7 @@ window.addEventListener("load", function(event) {
 });
 
 (function(w, g) {
-    w.['GoogleAnalyticsObject'] = g;
+    w['GoogleAnalyticsObject'] = g;
     w[g] = w[g] || function() {
         (w[g].q = w[g].q || []).push(arguments);
     };
